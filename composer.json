@@ -25,9 +25,6 @@
     "autoload": {
         "psr-4": {
           "Lifeids\\Groups\\": "src/"
-        },
-        "classmap": [
-            "tests/GroupsTestCase.php"
-        ]
+        }
     }
 }
