@@ -1,0 +1,29 @@
+{
+    "name": "lifeids/groups",
+    "description": "Laravel 5 user groups package",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "groups",
+        "conversations"
+    ],
+    "authors": [
+        {
+            "name": "Lifeids",
+            "email": "info@lifeids.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "^5.2",
+        "lifeids/abusereport": "*"
+    },
+    "autoload": {
+        "psr-4": {
+          "Lifeids\\Groups\\": "src/"
+        },
+        "classmap": [
+            "tests/GroupsTestCase.php"
+        ]
+    }
+}
