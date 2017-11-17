@@ -15,8 +15,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "illuminate/support": "^5.2",
-        "lifeids/abusereport": "^1.0"
+        "illuminate/support": "^5.2"
     },
     "extra": {
         "branch-alias": {
